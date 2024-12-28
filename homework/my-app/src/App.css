@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+  user-select: none;
+}
+
+.ButtonContainer button{
+  background-color: #65c334;
+  color: white;
+  border: none;
+  outline: none;
+  width: 140px;
+  height: 52px;
+  cursor: pointer;
+  font: 1em sans-serif;
+}
+
+.MainHeader {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  height: 52px;
+  background-color: #c4ffa7;
+}
+
+.MainHeader h4 {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.MainHeader .ButtonContainer {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.MainHeader img {
+  display: flex;
+  justify-content: flex-start;
+  width: 230px;
+  height: 80px;
+  margin: 0;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -40px;
+}
+
+.MainDesc {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 50px;
+}
+
+.InfoOfMission {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  margin-top: 15px;
+}
+
+.Mission {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 15px;
+  font: 0.9em sans-serif;
+}
+
+.Mission h2 { border-bottom: 2px solid #65c334; }
+
+.Reply {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ReplyField {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.Work {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  margin-top: 15px;
+}
+
+.WorkField {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 20px;
+  word-wrap: break-word;
+}
+
+.WorkCompleted {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+}
+
+.WorkCompleted img{
+  width: 240px;
+  height: 240px;
+  margin: 10px;
+  border: 2px solid #65c334
+}
+
+.Company div {
+  border: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 5px;
+}
+
+.RecoverForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+}
+
+.RecoverForm input {
+  margin-left: 550px;
+  margin-right: 550px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #65c334;
+}
+
+.RecoverForm button {
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #65c334;
+}
+
+.RecoverMap {
+  border: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 750px;
+  margin-left: 26.5%;
+}
+
+
+
+
+.CalculatorForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+}
+
+.CalculatorForm input {
+  margin-left: 550px;
+  margin-right: 550px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #65c334;
+}
+
+.CalculatorForm select {
+  margin-left: 550px;
+  margin-right: 550px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #65c334;
+}
+
+.CalculatorForm button {
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #65c334;
+}
+
+
+footer {
+  border-top: 2px solid #65c334;
+  border-bottom: 2px solid #65c334;
+  background-color: #c4ffa7;
+  margin-top: auto;
+  user-select: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button:hover {
+  transition: background-color 0.2s ease;
+  background-color: #57a52d;
+}
